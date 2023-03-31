@@ -67,6 +67,10 @@ li{
     margin-right: 0;
 }
 
+li:nth-child(2){
+    display: none;
+}
+
 span{
     float: inline-end;
     margin-right: 3px;
@@ -83,4 +87,10 @@ span{
     background-color: gainsboro;
     font-size: 20px;
     border: none;
+}
+
+.rmall{
+    display: inline;
+    border: none;
+    background-color: gainsboro;
 }
